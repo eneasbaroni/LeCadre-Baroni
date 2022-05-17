@@ -1,0 +1,40 @@
+@import 'vars';
+@import 'mixin';
+
+/* HEADER Inicio */
+.navbar {
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 1000ms ease-out;    
+    & .navbar-toggler {
+        color: $colorPrincipal; 
+      }    
+    & .navbar-nav {
+        li {
+            color: white;
+            & a {
+                font-size: 1rem;
+                font-weight: 400;
+                /* border-radius: 0.2rem; */
+                &:hover {
+                    color: $colorTerciario;  
+                    background-color: $colorSecundario;  
+                    transition: 0.7s;
+                }                
+            }  
+        }
+        
+    }  
+    #iconoCarrito {        
+        background: none;
+        color: $colorPrincipal;
+        border: none; 
+    }    
+}
+
+.fondoBlanco {
+    background-color: rgba(199, 213, 252, 0.89);  
+    transition: all 1000ms ease-out;
+}
+
+

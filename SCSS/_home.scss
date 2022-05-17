@@ -1,0 +1,15 @@
+@import 'vars';
+@import 'mixin';
+
+
+#home {    
+    /* margin-top: -34rem; */
+    background-image: url(../images/home_fondo2.png);
+    background-size: cover;
+    background-position: center;
+    #logo {
+        margin-top: 4rem;
+        height: 90vh;
+    }
+}
+

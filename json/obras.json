@@ -1,0 +1,14 @@
+[
+    {"nombre":"Revok 01","autor":"Jason Revok","precio":20000,"src":"obra_01.jpg","alt":"Obra_01","vendido":false},
+    {"nombre":"Espiral","autor":"Boicut","precio":35000,"src":"obra_02.jpg","alt":"Obra_02","vendido":false},
+    {"nombre":"Caos","autor":"Christopher Wool","precio":15000,"src":"obra_03.jpg","alt":"Obra 03","vendido":false},
+    {"nombre":"Baldessari","autor":"Jonathan Ryan Harvey","precio":45000,"src":"obra_04.jpg","alt":"Obra_04","vendido":false},
+    {"nombre":"Revok 02","autor":"Jason Revok","precio":20000,"src":"obra_05.png","alt":"Obra_05","vendido":false},
+    {"nombre":"St. Tropez","autor":"Andrew Salgado","precio":40000,"src":"obra_06.jpg","alt":"Obra_06","vendido":false},
+    {"nombre":"Heart Shaped Box","autor":"Billy Bagilhole","precio":42000,"src":"obra_07.jpg","alt":"Obra_07","vendido":false},
+    {"nombre":"A big thing or a small","autor":"Jenny Brosinski","precio":37000,"src":"obra_08.png","alt":"Obra_08","vendido":false},
+    {"nombre":"Glitters","autor":"Boicut","precio":25000,"src":"obra_09.jpg","alt":"Obra_09","vendido":false},
+    {"nombre":"Wanderlust","autor":"Manuela Karin Knaut","precio":50000,"src":"obra_10.jpg","alt":"Obra_10","vendido":false},
+    {"nombre":"El Bals","autor":"Marta Vovk","precio":43000,"src":"obra_11.jpg","alt":"Obra_11","vendido":false},
+    {"nombre":"Humedad","autor":"Anna Nero","precio":40000,"src":"obra_12.png","alt":"Obra_12","vendido":false}
+]

@@ -1,0 +1,58 @@
+@import 'vars';
+@import 'mixin';
+
+
+* {
+    color: $colorPrincipal;
+    @include font;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: $colorPrincipal;
+    text-decoration: none;      
+}
+
+html {   
+    body {
+        background: $fondo;        
+        /* border-bottom: $borderPrincipal; */
+        section {
+            min-height: 100vh;
+            /* border: solid red; */
+        }
+        h2, h3 {
+            font-weight: 100;
+        }
+    }
+}
+
+p, label, input, .form-control { 
+    font-size: 1rem;
+    margin: 0;                         
+    padding: 0;    
+}
+
+h2 { 
+    font-size: 2rem;    
+}
+
+@media screen and (min-width: 768px){
+    p, label, input, .form-control { 
+        font-size: 1rem;                            
+    }
+    h2 { 
+        font-size: 3rem;                                 
+    }
+}
+
+
+.hidden {
+visibility: hidden; 
+opacity: 0;
+transition: all 800ms ease-out;
+}
+
+

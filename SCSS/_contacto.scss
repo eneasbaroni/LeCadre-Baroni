@@ -1,0 +1,15 @@
+@import 'vars';
+@import 'mixin';
+
+#formulario {
+    min-height: calc(100vh - 250px);
+}
+
+.contacto__botones {    
+    input {
+        color: $colorTerciario;
+        background-color: $colorSecundario;
+        border: none;
+    }
+}
+

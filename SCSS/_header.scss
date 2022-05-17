@@ -1,0 +1,74 @@
+@import 'vars';
+@import 'mixin';
+
+#carrito {
+    /* visibility: hidden; */
+    width: 40rem;  
+    height: 30rem;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.89);
+    top: 4rem;
+    z-index: 4;  
+    transition: all 800ms ease-out;
+    #aceptar {
+        background-color: $colorSecundario;
+        color: $colorTerciario;
+        position: absolute;
+        left: 13rem; 
+        bottom: 0;        
+        border: none;
+        bottom: 1rem;
+    }
+    #cancelar {
+        background-color: $colorSecundario;
+        color: $colorTerciario;
+        position: absolute;
+        right: 13rem;
+        bottom: 0;
+        border: none;
+        bottom: 1rem;
+    }
+}
+#compra {
+    /* visibility: hidden; */
+    color: $colorTerciario !important;
+    width: 40rem;  
+    height: 30rem;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #2f00ffea;
+    top: 4rem;
+    z-index: 4;  
+    transition: all 800ms ease-out;
+    #finalizar {
+        background-color: $colorTerciario;
+        color: $colorSecundario;
+        position: absolute;
+        left: 18rem;
+        bottom: 0;        
+        border: none;
+        bottom: 1rem;
+    } 
+    p {
+        color: $colorTerciario;
+    }   
+    h3 {
+        color: $colorTerciario;
+    }   
+    h4 {
+        color: $colorTerciario;
+    }   
+    div {
+        color: $colorTerciario;
+    }   
+}
+

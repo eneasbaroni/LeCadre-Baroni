@@ -1,0 +1,103 @@
+@import 'vars';
+@import 'mixin';
+
+#obras {
+    #contenedorObras {
+        .obra {         
+            /* position: relative; */          
+            img {
+                height: 400px;
+                width: 100%;
+                object-fit: cover; 
+                cursor: pointer; 
+                filter: grayscale(1); 
+                transition: all 500ms ease-out;
+                z-index: 1;
+                &:hover {
+                    filter: grayscale(0);
+                }                  
+            }  
+            .botonCompra {            
+                position: relative;
+                display: block;
+                border: none;
+                width: 100px; 
+                margin-top: -30px;            
+                margin-inline: auto; 
+                height: auto;
+                color: $colorTerciario;             
+                cursor: pointer;  
+                background-color: #2f00ffc9; 
+                z-index: 3; 
+                transition: all 500ms ease-out; 
+                &:hover {
+                    background-color: $colorSecundario;
+                    transform: scale(1.1);
+                }          
+            }  
+            .botonDeshacer {            
+                position: relative;
+                display: block;
+                border: none;
+                width: 100px; 
+                margin-top: -25px;            
+                margin-inline: auto; 
+                height: auto;
+                color: $colorTerciario;             
+                cursor: pointer;  
+                background-color: #2f00ffc9; 
+                z-index: 3; 
+                transition: all 500ms ease-out; 
+                &:hover {
+                    background-color: $colorSecundario;
+                    transform: scale(1.1);
+                }          
+            } 
+            .obraNombre {            
+                color: $colorSecundario;
+                background-color: rgba(223, 240, 255, 0.733);
+                width: 200px;
+                font-weight: 600;
+                border-radius: 0.5rem;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;  
+                top: -4.65rem;       
+                padding: 0;
+                          
+            } 
+            .obraPrecio {
+                color: $colorSecundario;
+                background-color: rgba(223, 240, 255, 0.733);
+                width: 200px;
+                font-weight: 600;
+                border-radius: 0.5rem;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;  
+                top: -4.6rem;                    
+                padding: 0;           
+            } 
+            .obraAutor {
+                margin-top: -3rem;
+                margin-bottom: 1.5rem;
+                z-index: 4;            
+            } 
+        } 
+    }
+    #contenedorImgGrandres {
+        .imgObraGrande {
+            position: fixed;            
+            height: calc(100vh - 65px);
+            top: 60px;
+            left: 0;
+            padding: 0;  
+            z-index: 5;
+            transition: all 800ms ease-out;
+            object-fit: contain;   
+            right: auto;
+        }
+    }
+}
+
+

@@ -1,0 +1,14 @@
+@import 'vars';
+@import 'mixin';
+
+#nosotros {  
+    background-image: url(../images/nosotros2.jpg);
+    h2 {
+        color: white; 
+    }
+    p {
+        color: white; 
+        font-size: 1.2rem;
+        font-weight: 200;                
+    }
+}
