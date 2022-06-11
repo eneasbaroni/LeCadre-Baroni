@@ -352,4 +352,23 @@ h2 {
 #compra div {
   color: white;
 }
+
+@media (max-width: 576px) {
+  #carrito {
+    width: 90vw;
+  }
+  #carrito #aceptar {
+    left: 10vw;
+  }
+  #carrito #cancelar {
+    right: 10vw;
+  }
+  #compra {
+    width: 90vw;
+  }
+  #compra #finalizar {
+    width: 80px;
+    left: calc(45vw - 40px);
+  }
+}
 /*# sourceMappingURL=style.css.map */

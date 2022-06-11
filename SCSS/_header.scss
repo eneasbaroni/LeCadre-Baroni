@@ -72,3 +72,26 @@
     }   
 }
 
+@media (max-width: 576px) {
+
+    #carrito {
+        width: 90vw;
+        #aceptar {
+            left: 10vw ;
+        }
+        #cancelar {
+            right: 10vw;
+        }
+    } 
+    
+    #compra {
+        width: 90vw;
+
+        #finalizar {
+            width: 80px;
+            left: calc(45vw - 40px);
+        }
+    }
+
+}
+
