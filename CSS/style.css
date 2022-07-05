@@ -106,6 +106,13 @@ h2 {
   height: 90vh;
 }
 
+@media screen and (max-width: 370px) {
+  #home #logo {
+    margin-top: 4rem;
+    height: 70vh;
+  }
+}
+
 #artistas .artista {
   position: relative;
 }
@@ -274,7 +281,7 @@ h2 {
 
 #carrito {
   /* visibility: hidden; */
-  width: 40rem;
+  width: 80vw;
   height: 30rem;
   position: fixed;
   margin-left: auto;
@@ -293,7 +300,7 @@ h2 {
   background-color: #2f00ff;
   color: white;
   position: absolute;
-  left: 13rem;
+  left: 12vw;
   bottom: 0;
   border: none;
   bottom: 1rem;
@@ -303,7 +310,7 @@ h2 {
   background-color: #2f00ff;
   color: white;
   position: absolute;
-  right: 13rem;
+  right: 12vw;
   bottom: 0;
   border: none;
   bottom: 1rem;
@@ -312,11 +319,10 @@ h2 {
 #compra {
   /* visibility: hidden; */
   color: white !important;
-  width: 40rem;
+  width: 80vw;
   height: 30rem;
   position: fixed;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   left: 0;
   right: 0;
   text-align: center;
@@ -331,7 +337,7 @@ h2 {
   background-color: white;
   color: #2f00ff;
   position: absolute;
-  left: 18rem;
+  left: calc(50% - 35px);
   bottom: 0;
   border: none;
   bottom: 1rem;
@@ -353,22 +359,17 @@ h2 {
   color: white;
 }
 
-@media (max-width: 576px) {
-  #carrito {
-    width: 90vw;
-  }
-  #carrito #aceptar {
-    left: 10vw;
-  }
-  #carrito #cancelar {
-    right: 10vw;
-  }
-  #compra {
-    width: 90vw;
-  }
-  #compra #finalizar {
-    width: 80px;
-    left: calc(45vw - 40px);
+.navbar-toggler {
+  position: fixed !important;
+  top: 0.5rem;
+  right: calc(50vw - 20px);
+}
+
+@media screen and (max-width: 767px) {
+  #iconoCarrito {
+    position: fixed !important;
+    top: 0.8rem;
+    right: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

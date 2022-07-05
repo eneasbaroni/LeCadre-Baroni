@@ -9,7 +9,20 @@
     background-position: center;
     #logo {
         margin-top: 4rem;
-        height: 90vh;
+        height: 90vh;        
     }
 }
+
+@media screen and (max-width: 370px) {
+    #home {
+
+        #logo {
+            margin-top: 4rem;
+            height: 70vh;        
+        }
+    }
+
+}
+
+
 
